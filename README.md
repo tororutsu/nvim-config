@@ -14,6 +14,7 @@ A bare-scratch, ultra-minimal Neovim configuration built for **Neovim 0.13+ Nigh
 
 The configuration leverages a structured runtime matrix inspired by MiniMax, utilizing the `after/` directory to guarantee clean layering for language configurations and overrides:
 
+```
 ~/.config/nvim/
 ├── init.lua                # Main entry point (remains clean/declarative)
 ├── nvim-pack-lock.json     # Native package manager lockfile
@@ -27,3 +28,4 @@ The configuration leverages a structured runtime matrix inspired by MiniMax, uti
     ├── lsp/                # Native 0.13 language server configurations
     ├── plugin/             # Sourced after root plugins are loaded
     └── snippets/           # Dedicated user-defined snippets directory
+```
